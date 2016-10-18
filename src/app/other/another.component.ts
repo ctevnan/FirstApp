@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'fa-another',
   template: `
     <article>
-      Test
+      <ng-content></ng-content>
     </article>
   `,
   styles: [`
