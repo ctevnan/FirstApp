@@ -11,7 +11,9 @@ import { Component } from '@angular/core';
         <p>World</p>
       </div>
     </fa-another>
-    <fa-another></fa-another>
+    <fa-another>
+      <p>Something else</p>
+    </fa-another>
   `,
   styles: [`
     h1 {
